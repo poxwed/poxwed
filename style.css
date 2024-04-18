@@ -1,3 +1,15 @@
 body{
     background-color: rgb(147, 219, 255);
 }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sh1{
+    text-shadow: 2px 2px 6px;
+}
+#img1{
+    float: left;
+}
+#bt1{
+    margin-bottom: 10px;
+}
