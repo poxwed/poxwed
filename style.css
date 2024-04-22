@@ -9,7 +9,38 @@
     left: 0;
     width: 100%;
     padding: 20px  100px;
-    background-color: rgb(52, 0, 120);
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 30px;
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: 800;
+}
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color:antiquewhite;
+    margin-left: 70px;
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color:rgb(255, 255, 255);
+    transition: .2s;
+}
+.navbar a:hover::before {
+    width: 100%;
 }
 body{
     min-height: 100vh;
